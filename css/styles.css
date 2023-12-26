@@ -147,7 +147,8 @@ img {
   letter-spacing: 0.32px;
 }
 
-.header-address-link:hover .header-address-link:focus{
+.header-address-link:hover 
+.header-address-link:focus {
   color: #404bbf;
 }
 
@@ -316,9 +317,16 @@ img {
   justify-content: center;
 }
 
-.team-person-sm-link:hover 
+.team-person-sm-link:hover {
+  background-color: #404bbf;
+}
+
 .team-person-sm-link:focus {
   background-color: #404bbf;
+}
+
+.team-person-sm-icon {
+  fill: #f4f4fd;
 }
 
 .portfolio-section {
