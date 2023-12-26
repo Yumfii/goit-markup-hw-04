@@ -58,16 +58,17 @@ img {
   display: block;
 }
 
+svg {
+  width: 64px;
+  height: 64px;
+}
+
 .header {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
               0px 1px 1px rgba(46, 47, 66, 0.16), 
               0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-.header .container {
-  max-width: 1440px;
 }
 
 .container {
@@ -164,6 +165,7 @@ img {
                      url(../images/hero/people-office.jpg);
   padding: 188px 0;
   display: block;
+  max-width: 1440px;
 }
 
 .hero-title {
@@ -225,6 +227,16 @@ img {
 .feature-section-list {
   display: flex;
   gap: 24px;
+}
+
+.feature-section-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .feature-section-item {
