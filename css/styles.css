@@ -16,7 +16,6 @@ body {
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
@@ -185,6 +184,7 @@ img {
                      url(../images/hero/people-office.jpg);
   padding: 188px 0;
   display: block;
+  max-width: 1440px;
 }
 
 .hero-title {
