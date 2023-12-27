@@ -110,8 +110,6 @@ img {
 
 .header-logo {
   margin-right: 76px;
-  position: relative;
-  color: #404bbf;
 }
 
 .header-logo span {
@@ -122,6 +120,11 @@ img {
   display: flex;
   gap: 40px;
   margin-right: 332px;
+}
+
+.header-nav-first-item {
+  position: relative;
+  color: #404bbf;
 }
 
 .header-nav-list-item {
