@@ -128,12 +128,12 @@ img {
 }
 
 .header-nav-list-item:hover {
-  position: relative;
   color: #404bbf;
+  position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav-list-item::after {
+.header-nav-list-item:hover::after {
   width: 100%;
   content: '';
   position: absolute;
